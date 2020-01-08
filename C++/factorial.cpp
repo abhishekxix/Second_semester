@@ -8,9 +8,9 @@ int main()
     unsigned int temp {number};
     unsignedint factorial {1};
     if(number  == 0)
-        factorial = 0;
+        factorial = 1;
     
-    for(;temp > 0; temp--)
+    for(;temp >= 2; temp--)
     {
         factorial *= temp;
     }
