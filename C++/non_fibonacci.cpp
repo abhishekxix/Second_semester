@@ -32,7 +32,7 @@ int main()
 		for(j = x + 1; j < y && y < limit; j++)
 			std::cout << j << " " << std::flush;
 
-        	for(; (j  < limit) && (y > limit); j++)
+        	for(; (j  < limit) && (y >= limit); j++)
                 std::cout << j << " " << std::flush;
 	}
 	return 0;
