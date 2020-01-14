@@ -3,7 +3,7 @@
 int main()
 {
     const int base {1000}, m {4}, n {4};
-    int  width {sizeof int}, i {}, j {}, result {} , a[4][4] {};
+    int  width {sizeof(int)}, i {}, j {}, result {} , a[4][4] {};
     std::cout << "Enter the elements of the 4x4 matrix separated by a space -> " << std::endl;
 
     for(i = 0; i < m ; i < n)
