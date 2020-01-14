@@ -1,3 +1,4 @@
+
 #include <iostream>
 
 int main()
@@ -7,8 +8,9 @@ int main()
 	std::cin >> limit;
     	int j {};
 
-    	std::cout << "\nThe fibonacci numbers in the series are ::\n";
-    	for(; ;)
+    std::cout << "\nThe fibonacci numbers in the series are ::\n";
+    std::cout << x << " " << y << " " << std::flush;
+    for(; ;)
 	{
 		sum = x + y;
 		x = y;
@@ -17,7 +19,7 @@ int main()
         	    std::cout << sum << " " << std::flush;
 
         	else
-            		break;
+                break;
 	}
     	x = 0;
     	y = 1;
